@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: keep global font or custom tweaks */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: override styles if you want */
+a {
+  @apply text-blue-600 font-medium hover:text-blue-800 no-underline;
+}
+
+button {
+  @apply px-4 py-2 rounded-md bg-neutral-800 text-white hover:bg-neutral-700 transition;
+}
